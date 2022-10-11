@@ -1,0 +1,52 @@
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+    .me-auto {
+      margin-right: 0px !important;
+    }
+  }
+}
+.navbar-toggler {
+  border: none !important;
+  border-color: none !important;
+  &.collapsed {
+    border: none !important;
+    border-color: none !important;
+    &:focus {
+      border: none !important;
+    }
+  }
+
+  &:focus {
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
+.navbar-brand {
+  img {
+    max-width: 50vw;
+  }
+}
+
+.overlay {
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 200px;
+  animation: slideDown 0.5s linear;
+  height: 100%;
+}
+.fade-out {
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 200px;
+  animation: slideUp 0.5s linear;
+  // display: none;
+}
+// .ani-1 {
+//   position: relative;
+//   animation: fromBottom-30 1s linear;
+// }

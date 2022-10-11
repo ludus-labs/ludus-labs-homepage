@@ -1,0 +1,49 @@
+@import "./animation";
+
+.container.about {
+  padding: 80px 0px;
+  // margin-bottom: 80px;
+  @media screen and (max-width: 576px) {
+    padding: 80px 12px;
+  }
+}
+
+.col-lg-7 {
+  img.blank {
+    width: 100%;
+    aspect-ratio: 635 / 512;
+    object-fit: contain;
+  }
+}
+.col-lg-5.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  p {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+    color: #8b0029;
+    font-size: 14px;
+  }
+  h1 {
+    font-weight: 700;
+    line-height: 1.3em;
+    word-break: keep-all;
+  }
+  h6 {
+    margin-top: 32px;
+    color: #80797b;
+    line-height: 1.5em;
+    word-break: keep-all;
+  }
+}
+.ani-1 {
+  position: relative;
+  animation: fromBottom-30 1s linear;
+}
+.ani-2 {
+  position: relative;
+  animation: fromRight-10 1s linear;
+  animation-delay: 0.5s;
+  animation-fill-mode: backwards;
+}

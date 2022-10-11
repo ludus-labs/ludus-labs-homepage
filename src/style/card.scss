@@ -1,0 +1,142 @@
+.Cardcontainer {
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding: 30px;
+  border: 1px dashed #c4c4c4;
+  @media screen and (max-width: "768px") {
+    padding: 15px;
+  }
+  @media screen and (max-width: "576px") {
+    padding: 0px;
+    border: none;
+  }
+}
+.row.upperContent {
+  background: #f9f9f9;
+  padding: 15px;
+}
+.cardTop {
+  margin-bottom: 32px;
+  font-weight: 700;
+}
+.cardBottom {
+  // border-top: 1px dashed #80797b;
+}
+.cardBox {
+  height: 100%;
+  align-items: center;
+  .list {
+    height: 100%;
+    padding-left: 0px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+
+    .line {
+      // border: 1px solid black;
+      display: grid;
+      grid-template-columns: 40% 60%;
+      // display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      .label {
+        // border: 1px solid black;
+        color: black;
+        font-size: 16px;
+        margin-right: 18px;
+      }
+      .data {
+        // border: 1px solid black;
+        font-size: 14px;
+        color: #80797b;
+      }
+    }
+  }
+}
+.iconPath {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 100%;
+    object-fit: cover;
+    max-width: 400px;
+  }
+}
+.imgBox {
+  overflow: hidden;
+  // height: 0;
+  // padding-bottom: 100%;
+  width: 100%;
+  min-width: 200px;
+  img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3 / 4;
+  }
+  @media screen and (max-width: "768px") {
+    width: 60%;
+    margin: auto;
+  }
+}
+.intro {
+  // margin-top: 26px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 1.5em;
+  display: flex;
+  h5 {
+    color: #80797b;
+  }
+  h4 {
+    font-weight: 700;
+  }
+  h3 {
+    font-weight: 700;
+  }
+  .redBar {
+    margin-right: 12px;
+    width: 8px;
+    background-color: #8b0029;
+  }
+}
+.commentBox {
+  position: relative;
+  .commentLine {
+    margin-top: 40px;
+    color: #3f3639;
+    font-weight: 700;
+  }
+  h6 {
+    margin-top: 12px;
+    line-height: 1.5em;
+    max-width: 600px;
+  }
+}
+.comma {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  img {
+    width: 100%;
+  }
+}
+.upLeft {
+  top: 0;
+  left: 0;
+  @media screen and (max-width: "576px") {
+    top: 10px;
+    left: 10px;
+  }
+}
+.downRight {
+  bottom: 0;
+  right: 0;
+  @media screen and (max-width: "576px") {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+.symbol {
+  position: absolute;
+  right: 0;
+}
