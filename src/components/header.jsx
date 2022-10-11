@@ -11,10 +11,16 @@ export default function Header() {
   const [nav, setNav] = useState(false);
   return (
     <>
-      <Navbar expand="lg" sticky="top" style={{ backgroundColor: "white" }}>
+      <Navbar expand="lg" sticky="top" style={{ backgroundColor: "#fab1a0" }}>
         <Container>
           <Navbar.Brand href="#home">
-            <img src={KoreaLogo} alt="" />
+            <img
+              src={
+                "https://www.glob-up.com/static/media/logo.32adf145870bfd9d0900.png"
+              }
+              alt=""
+              width={"80px"}
+            />
           </Navbar.Brand>
           <Navbar.Toggle
             onClick={() => setNav(!nav)}
@@ -32,13 +38,13 @@ export default function Header() {
                 onClick={educateSection.onClick}
                 selected={educateSection.selected}
                 style={{ fontSize: "14px" }}
-                content={"Research in BME"}
+                content={"Project"}
               ></Link>
               <Link
                 onClick={professorSection.onClick}
                 selected={professorSection.selected}
                 style={{ fontSize: "14px" }}
-                content={"Faculty Members"}
+                content={"Members"}
               ></Link>
             </Nav>
           </Navbar.Collapse>
@@ -53,7 +59,7 @@ const Link = (props) => {
     <a
       onClick={props.onClick}
       style={{
-        color: `${props.selected ? "#8b0026" : "inherit"}`,
+        color: `${props.selected ? "#e17055" : "white"}`,
         fontWeight: `${props.selected ? "700" : "400"}`,
       }}
     >

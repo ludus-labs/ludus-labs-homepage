@@ -6,29 +6,7 @@ import HomeOne from "./components/homeOne";
 import HomeTwo from "./components/homeTwo";
 import { ScrollingProvider, Section } from "react-scroll-section";
 
-function App(props) {
-  // const [navActive, setNavActive] = useState(1)
-  // const [sAbout,setSAbout] = useState(0)
-  // const [shomeone,setShomeone] = useState(0)
-  // const [shometwo,setShometwo] = useState(0)
-  // const about = useRef(null)
-  // const homeone = useRef(null)
-  // const hometwo = useRef(null)
-  // const getwindowScroll = () =>{
-  //   if(window.scrollY){
-
-  //   }
-
-  // }
-  // useEffect(()=>{
-  //   getwindowScroll()
-  //   setSAbout(about.current.clientHeight)
-  //   setShomeone(homeone.current.clientHeight)
-  //   setShometwo(hometwo.current.clientHeight)
-  // })
-  // useEffect(()=>{
-  //   console.log(sAbout, shomeone, shometwo)
-  // })
+function App() {
   return (
     <ScrollingProvider scrollBehavior="smooth">
       <div>
