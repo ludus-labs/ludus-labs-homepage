@@ -68,10 +68,11 @@
   // padding-bottom: 100%;
   width: 100%;
   min-width: 200px;
+  margin: auto;
   img {
     width: 100%;
     object-fit: cover;
-    aspect-ratio: 3 / 4;
+    aspect-ratio: 1/1;
   }
   @media screen and (max-width: "768px") {
     width: 60%;
@@ -96,7 +97,7 @@
   .redBar {
     margin-right: 12px;
     width: 8px;
-    background-color: #8b0029;
+    background-color: #ff7675;
   }
 }
 .commentBox {

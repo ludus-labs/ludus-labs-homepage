@@ -11,7 +11,7 @@ export default function HomeOne() {
         paddingBottom: "80px",
       }}
     >
-      <h1 className="title">우리가 만든 프로젝트</h1>
+      <h1 className="title">What we made</h1>
       <h6 className="description">
         <span className="red">목표</span> : 가볍지만 즐거운, 그러한 아이템을
         제작합니다.
@@ -20,27 +20,23 @@ export default function HomeOne() {
         <div className="direction d1 col-lg-4">
           <div className="d-flex">
             <div className="color-bar therapeutics"></div>
-            <h4 className="dTitle">AI and Big Data based Robo-therapeutics</h4>
+            <h4 className="dTitle">불필요한 톡방, 이제 그만!</h4>
           </div>
-          <img src="img/thera_orange.png" alt="" />
+          <img src="img/capture.png" alt="" />
         </div>
         <div className="direction d2 col-lg-4">
           <div className="d-flex">
             <div className="color-bar morphogenic"></div>
-            <h4 className="dTitle">
-              Smart material based morphogenic regeneration
-            </h4>
+            <h4 className="dTitle">직관적이고, 누구보다 빠르게</h4>
           </div>
-          <img src="img/heart_orange.png" alt="" />
+          <img src="img/emoticon.png" alt="" />
         </div>
         <div className="direction d3 col-lg-4">
           <div className="d-flex">
             <div className="color-bar knowingdoctor"></div>
-            <h4 className="dTitle">
-              AI based diagnosis for individualized treatment
-            </h4>
+            <h4 className="dTitle">밀도 100% 소통!</h4>
           </div>
-          <img src="img/아는의사_수정.png" alt="" />
+          <img src="img/receive.png" alt="" />
         </div>
       </div>
     </Container>

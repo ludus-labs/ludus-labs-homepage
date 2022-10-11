@@ -7,11 +7,7 @@ function About(props) {
     <Container className="about">
       <Row>
         <Col lg={7}>
-          <img
-            className="blank ani-1"
-            src="https://www.glob-up.com/static/media/gogo_icon.be0aea50efa112d413da.png"
-            alt=""
-          />
+          <img className="blank ani-1" src="img/gogo2.png" alt="" />
         </Col>
         <Col lg={5} className="welcome ani-2">
           <p>ABOUT US</p>
